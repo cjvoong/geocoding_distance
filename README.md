@@ -1,15 +1,15 @@
 ## geocoding_distance
 
-calculate_distance.py
+distance_calculator.py
 
 Calculates the distance in miles between two UK postcodes (although you can use anything that the Nominatim lib can take)
 
-find_nearest_locations.py
+# Local running tests
 
-Calculates which locations are within 5 miles from a single postcode to some dummy data postcodes
+`python -m venv venv`
 
-# Local running
+`source venv/Scripts/activate` or `venv\Scripts\activate`
 
 `pip install -r requirements.txt`
 
-`python find_nearest_locations.py`
+`python -m unittest test_distance_calculator`
